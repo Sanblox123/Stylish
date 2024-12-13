@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: fonttwo;
+    padding: 0;
+}
+@font-face {
+    font-family: fontone;
+    src: url(./Stylish.fonts/font1.woff2);
+}
+@font-face {
+    font-family: fonttwo;
+    src: url(./Stylish.fonts/font2.woff2);
+}
+.nav1{
+    width: 100%;
+    padding: 10px 30px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+}   
+.icons{
+    display: flex;
+    width: 100px; 
+    justify-content: space-between;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+}
+.txt_nav{
+    display: flex;
+    width: 440px;
+}
+.txt_nav h4{
+    color: black;
+    font-weight: 700;
+}
+.txt_nav p{
+    color: #000000ef;
+    font-weight: 500;
+
+}
+.nav_txt{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+}
+.nav2{
+    width: 100%;
+    padding: 30px 30px 50px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.logo{
+    width: 250px;
+    height: 70px;
+}
+.nav{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+
+}
+.cart{
+    display: flex;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart img{
+    width: 25px;
+    height: 25px;
+}
+.shoe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 170vh;
+}
+.shoe1{
+    background-image: url(https://themewagon.github.io/stylish/images/card-image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 105vh;
+  
+    width: 48%;
+    margin-top: 70px;
+    /* padding-left: 9px; */
+}
+.shoe2{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    float: right;
+    margin-top: -116vh;
+    padding-right: 30px;
+}
+.shoe2a{
+    height: 85vh;
+    background-image: url(https://themewagon.github.io/stylish/images/card-image2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+.shoe2b{
+    height: 80vh;
+    background-image: url(https://themewagon.github.io/stylish/images/card-image3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 45px;
+}
+.elipses{
+    width: 100%;
+    margin-top: 65vh;
+    padding-left: 600px;
+    height: 80px;
+}
+.elipses img{
+    width: 50px;
+    margin: auto; 
+}
+.not-img{
+    width: 88%;
+    margin: auto;
+    height: 270px;
+    background-color: #f1f1f1;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.word{
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+}
+
+.not-img h1{
+    position: absolute;
+    color: #e1e1e1;
+    bottom: 0;
+    right: 0;
+    font-weight: 1500;
+    font-family: fontone !important;
+}
+.not-img h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    width: 500px;
+}
+.not-img p{
+    color: rgba(0, 0, 0, 0.416);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.action{
+    z-index: 2;
+    padding-right: 105px;
+}
+.not-img button{
+    width: 200px;
+    height: 60px;
+    background-color: #000;
+    color: #ffff;
+    border: none;
+    font-size: 1.1rem;
+}
+.calling{
+    padding-left: 20px;
+    letter-spacing: 5px;
+    font-size: 0.95rem;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.products{
+    width: 97%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    /* margin-top: 100px; */
+}
+.pro{
+    height: 250px;
+    /* width: 100%; */
+}
+.pro-img1{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 220px;
+}
+.pro-img2{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.pro-img3{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.pro-img4{  
+    background-image: url(https://themewagon.github.io/stylish/images/card-item4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.pro-img5{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+.txt{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+.txt h4{
+    font-weight: 600;
+}
+.twins{
+    width: 98%;
+    margin: auto;
+    gap: 25px;
+    display: flex;
+    margin-top: 170px;
+}
+.twin1{
+    height: 105vh;
+    width: 50%;
+    background-image: url(https://themewagon.github.io/stylish/images/collection-item1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.twin2{
+    height: 105vh;
+    width: 50%;
+    background-image: url(https://themewagon.github.io/stylish/images/collection-item2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.calling2{
+    padding-left: 20px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.calling2 h2{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+.calling2 h3{
+    font-size: 1rem;
+    padding-right: 20px;
+}
+.pro-img1b{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item6.jpg);
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 220px;
+}
+.pro-img2b{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item7.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.pro-img3b{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.pro-img4b{  
+    background-image: url(https://themewagon.github.io/stylish/images/card-item9.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.pro-img5b{
+    background-image: url(https://themewagon.github.io/stylish/images/card-item10.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+.calling2{
+    padding-left: 20px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.calling2 h2{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+.calling2 h3{
+    font-size: 1rem;
+    padding-right: 20px;
+}
+.footer{
+    height: 80vh;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-top: 165px;
+    padding-left: 7px;
+    padding-right: 4px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+}
+.post-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 4px;
+    margin-top: -75px;
+}
+.post-footer p{
+    color: rgba(0, 0, 0, 0.416);
+}
+.mani{
+    width: 300px;
+}
+.man{
+    display: flex;
+}
+.man h5{
+    color: rgba(0, 0, 0, 0.416);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.man h4{
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+input{
+    border: none;
+    border-bottom: .8px;
+    background-color: transparent;
+    padding: 7px 0;
+    outline: none;
+}
+@media screen and (max-width: 376px) {
+    
+    .nav1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #dddddd;
+    }   
+    .icons{
+        display: flex;
+        width: 90px; 
+        justify-content: space-between;
+    }
+    .icons img{
+        width: 20px;
+        height: 20px;
+    }
+    .txt_nav{
+        display: none;
+    }
+    .nav_txt{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+    .logo{
+        width: 250px;
+        height: 70px;
+    }
+    .nav{
+        display: none;
+    }
+    .cart{
+        display: flex;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cart img{
+        width: 25px;
+        height: 25px;
+    }
+    .shoe{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .shoe1{
+        background-image: url(https://themewagon.github.io/stylish/images/card-image1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+
+        width: 100%;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .shoe2{
+        display: flex;
+        flex-direction: column;
+     
+        margin-top: 40px;
+        width: 100%;
+    }
+    .shoe2a{
+        height: 350px;
+        background-image: url(https://themewagon.github.io/stylish/images/card-image2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .shoe2b{
+        height: 350px;
+        background-image: url(https://themewagon.github.io/stylish/images/card-image3.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .elipses{
+        width: 100%;
+        margin: 50px auto 30px auto;
+        height: 80px;
+        display: none !important;
+    }
+    .elipses img{
+        width: 50px;
+        margin: auto; 
+    }
+    .not-img{
+
+        margin: auto;
+        height: 400px;
+        background-color: #f1f1f1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    }
+    .word{
+        display: flex;
+        flex-direction: column;
+    }
+    .not-img h1{
+        position: absolute;
+        color: #e1e1e1;
+        bottom: 0;
+        font-weight: 1500;
+        font-size: 8rem;
+        font-family: fontone !important;
+    }
+    .not-img h2{
+        z-index: 2;
+    }
+    .not-img p{
+        color: rgba(0, 0, 0, 0.416);
+        font-size: 0.95rem;
+        font-weight: 500;
+        z-index: 2;
+    }
+    .action{
+        z-index: 2;
+        padding-right: 105px;
+    }
+    .not-img button{
+        width: 200px;
+        height: 60px;
+        background-color: #000;
+        color: #ffff;
+        border: none;
+        font-size: 1.1rem;
+    }
+    .calling{
+        letter-spacing: 5px;
+        font-size: 0.95rem;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .products{
+      
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+     
+    }
+    .pro{
+        height: 330px;
+        width: 100%;
+    }
+    .pro-img1{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item1.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .pro-img2{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item2.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    
+    .pro-img3{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item3.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    
+    .pro-img4{  
+        background-image: url(https://themewagon.github.io/stylish/images/card-item4.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    
+    .pro-img5{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item5.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    .txt{
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .txt h4{
+        font-weight: 600;
+    }
+    .twins{
+        width: 100%;
+        margin: auto;
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .twin1{
+        height: 300px;
+        width: 100%;
+        background-image: url(https://themewagon.github.io/stylish/images/collection-item1.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .twin2{
+        height: 300px;
+        width: 100%;
+        background-image: url(https://themewagon.github.io/stylish/images/collection-item2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .calling2{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .calling2 h2{
+        letter-spacing: 5px;
+        font-size: 1.5rem;
+    }
+    .calling2 h3{
+        font-size: 1rem;
+    }
+    .pro-img1b{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item6.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .pro-img2b{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item7.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    
+    .pro-img3b{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item8.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    
+    .pro-img4b{  
+        background-image: url(https://themewagon.github.io/stylish/images/card-item9.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    
+    .pro-img5b{
+        background-image: url(https://themewagon.github.io/stylish/images/card-item10.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    .calling2{
+        margin-top: 90px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .calling2 h2{
+        letter-spacing: 5px;
+        font-size: 1.5rem;
+    }
+    .calling2 h3{
+        font-size: 1rem;
+        padding-right: 20px;
+    }
+    .footer{
+        height: 320vh;
+        border-top: 1px solid #dddddd;
+        padding-top: 40px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+    }
+    .post-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* margin-top: -75px; */
+    }
+    .post-footer p{
+        color: rgba(0, 0, 0, 0.416);
+    }
+    .mani{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .man{
+        display: flex;
+    }
+    .man h5{
+        color: rgba(0, 0, 0, 0.416);
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+    .man h4{
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+
+}
+
+
+
+
+
+
+
+
